@@ -10,12 +10,26 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
         Orbitron: ['"Orbitron", sans-serif;'],
         Poppins: ['"Poppins", sans-serif;'],
+      },
+      lineHeight:{
+        sm:"35.8%",
+        '6sm':"62.5%",
+        'md':"120%",
+        lg:"130%",
+        xl:"150%",
+        xxl:"160%",
+      },
+      colors:{
+        blue:"#3ebfff",
+      },
+      fontSize:{
+           '2xl':'29.59px',
+           '3xl':'48px',
+           '4xl':'42px',
       },
     },
   },
